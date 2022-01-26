@@ -20,8 +20,26 @@
 // IIFE (immediately invoked function expression)
 
 
-let add = (function(a,b){
-    return a+b
-})(10,20)
+//let add = (function(a,b){
+  //  return a+b
+//})(10,20)
 
-console.log(add)
+//console.log(add)
+//function Definition
+function sayHi(name){
+  console.log("my name is " ,name);
+  name();
+  //one thing
+  //return{firstName: "Diksah"};
+}
+//let obj ={firstName: "Diksha"
+
+function chotafunction() {
+  console.log("Iam chota function");
+}
+//I am passing function definition
+sayHi(chotafunction);
+//name function
+console.log(sayHi);
+console.log(chotafunction);
+sayHi("diksha")
